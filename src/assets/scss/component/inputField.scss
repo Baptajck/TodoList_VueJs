@@ -1,0 +1,18 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+
+    &-label {
+        margin: .2rem .2rem;
+    }
+
+    &-input {
+        padding: .2rem;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: block;
+    }
+}

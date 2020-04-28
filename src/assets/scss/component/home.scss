@@ -1,0 +1,42 @@
+.home {
+    &-title {
+        font-size: 2em;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-style: italic;
+        color: #3fb984;
+    }
+
+    &-form {
+        border: solid 1px black;
+        width: 50%;
+        margin: 1rem auto;
+        padding: 1rem;
+        border-radius: 1em;
+    }
+
+    &-desc {
+        text-align: center;
+        margin: 2rem auto;
+
+        &--strong {
+            font-weight: 700;
+        }
+    }
+
+    &-link {
+        margin: 1rem auto;
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &:visited {
+            color: #3fb984;
+        }
+    }
+}
